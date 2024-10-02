@@ -19,7 +19,7 @@ config = {
 }
 
 ################# Initialization tasks
-hooks.Filters.COMMANDS_INIT.add_item((
+hooks.Filters.CLI_DO_INIT_TASKS.add_item((
     "lms",
     ("videoupload", "tasks", "lms", "init")
 ))
